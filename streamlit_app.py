@@ -75,7 +75,7 @@ content_data = {
             "https://i.ibb.co/w65R2xK/5.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://www.youtube.com/watch?v=12acLQllIUw"
         ],
         'texts': [
             "달달한 디저트 입니다."
@@ -101,7 +101,7 @@ content_data = {
             
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://www.youtube.com/shorts/IByw0PaWzXg"
             
         ],
         'texts': [
