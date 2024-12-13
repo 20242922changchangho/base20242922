@@ -72,40 +72,40 @@ st.markdown("""
 content_data = {
     labels[0]: {
         'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1",
+            "https://via.placeholder.com/300?text=Label1_Image1"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
         ],
         'texts': [
-            "달달한 디저트 입니다.",
+            "달달한 디저트 입니다."
         ]
     },
     labels[1]: {
         'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1",
+            "https://via.placeholder.com/300?text=Label2_Image1"
             
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
             
         ],
         'texts': [
-            "목을 축여주는 음료입니다.",
+            "목을 축여주는 음료입니다."
             
         ]
     },
     labels[2]: {
         'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1",
+            "https://via.placeholder.com/300?text=Label3_Image1"
             
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
             
         ],
         'texts': [
-            "맛있는 일상식입니다.",
+            "맛있는 일상식입니다."
            
         ]
     }
