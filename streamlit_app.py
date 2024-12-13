@@ -41,12 +41,12 @@ def display_right_content(prediction, data):
     cols = st.columns(3)
 
     # 1st Row - Images
-    st.image(data['images'][i], caption=f"이미지: {prediction}", use_container_width=True)
+    st.image(data['images'][0], caption=f"이미지: {prediction}", use_container_width=True)
     # 2nd Row - YouTube Videos
-    st.video(data['videos'][i])
+    st.video(data['videos'][0])
     st.caption(f"유튜브: {prediction}")
     # 3rd Row - Text
-    st.write(data['texts'][i])
+    st.write(data['texts'][0])
 
 # 모델 로드
 st.write("모델을 로드 중입니다. 잠시만 기다려주세요...")
