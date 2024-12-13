@@ -88,9 +88,9 @@ content_data = {
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
         ],
         'texts': [
-            "Label 1 관련 첫 번째 텍스트 내용입니다.",
-            "Label 1 관련 두 번째 텍스트 내용입니다.",
-            "Label 1 관련 세 번째 텍스트 내용입니다."
+            "달달한 디저트 입니다.",
+            "달달한 디저트 입니다.",
+            "달달한 디저트 입니다."
         ]
     },
     labels[1]: {
@@ -105,9 +105,9 @@ content_data = {
             "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
         ],
         'texts': [
-            "Label 2 관련 첫 번째 텍스트 내용입니다.",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "목을 축여주는 음료입니다.",
+            "목을 축여주는 음료입니다.",
+            "목을 축여주는 음료입니다."
         ]
     },
     labels[2]: {
@@ -122,9 +122,9 @@ content_data = {
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
         ],
         'texts': [
-            "Label 3 관련 첫 번째 텍스트 내용입니다.",
-            "Label 3 관련 두 번째 텍스트 내용입니다.",
-            "Label 3 관련 세 번째 텍스트 내용입니다."
+            "맛있는 일상식입니다.",
+            "맛있는 일상식입니다.",
+            "맛있는 일상식입니다."
         ]
     }
 }
