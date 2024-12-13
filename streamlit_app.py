@@ -41,18 +41,12 @@ def display_right_content(prediction, data):
     cols = st.columns(3)
 
     # 1st Row - Images
-    for i in range(3):
-        with cols[i]:
-            st.image(data['images'][i], caption=f"이미지: {prediction}", use_container_width=True)
+    st.image(data['images'][i], caption=f"이미지: {prediction}", use_container_width=True)
     # 2nd Row - YouTube Videos
-    for i in range(3):
-        with cols[i]:
-            st.video(data['videos'][i])
-            st.caption(f"유튜브: {prediction}")
+    st.video(data['videos'][i])
+    st.caption(f"유튜브: {prediction}")
     # 3rd Row - Text
-    for i in range(3):
-        with cols[i]:
-            st.write(data['texts'][i])
+    st.write(data['texts'][i])
 
 # 모델 로드
 st.write("모델을 로드 중입니다. 잠시만 기다려주세요...")
@@ -79,52 +73,40 @@ content_data = {
     labels[0]: {
         'images': [
             "https://via.placeholder.com/300?text=Label1_Image1",
-            "https://via.placeholder.com/300?text=Label1_Image2",
-            "https://via.placeholder.com/300?text=Label1_Image3"
         ],
         'videos': [
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
         ],
         'texts': [
             "달달한 디저트 입니다.",
-            "달달한 디저트 입니다.",
-            "달달한 디저트 입니다."
         ]
     },
     labels[1]: {
         'images': [
             "https://via.placeholder.com/300?text=Label2_Image1",
-            "https://via.placeholder.com/300?text=Label2_Image2",
-            "https://via.placeholder.com/300?text=Label2_Image3"
+            
         ],
         'videos': [
             "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            
         ],
         'texts': [
             "목을 축여주는 음료입니다.",
-            "목을 축여주는 음료입니다.",
-            "목을 축여주는 음료입니다."
+            
         ]
     },
     labels[2]: {
         'images': [
             "https://via.placeholder.com/300?text=Label3_Image1",
-            "https://via.placeholder.com/300?text=Label3_Image2",
-            "https://via.placeholder.com/300?text=Label3_Image3"
+            
         ],
         'videos': [
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            
         ],
         'texts': [
             "맛있는 일상식입니다.",
-            "맛있는 일상식입니다.",
-            "맛있는 일상식입니다."
+           
         ]
     }
 }
