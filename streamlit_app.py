@@ -87,7 +87,7 @@ content_data = {
             
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://www.youtube.com/watch?v=-UOVpyK5Cx4"
             
         ],
         'texts': [
@@ -101,7 +101,7 @@ content_data = {
             
         ],
         'videos': [
-            "https://www.youtube.com/shorts/IByw0PaWzXg"
+            "https://youtube.com/watch?v=23s5mksYag8"
             
         ],
         'texts': [
